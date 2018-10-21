@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informacion2"
+    android:background="@drawable/fondo3"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTituloI"
+        android:text="Tsunami"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="348dp"
+        android:layout_height="182dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="Un Tsunami es una secuencia de olas que se producen por terremotos en el fondo marino; por deslizamientos submarinos; erupciones de volcanes sumergidos y con menor frecuencia por el impacto de meteoritos.  La palabra japonesa Tsunami que en español significa “ola de puerto” se representa por los dos caracteres aquí ilustrados, donde el superior indica “tsu” (puerto) y el inferior “nami” (ola)."
+        android:textColor="@android:color/black"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtTituloI"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="293dp"
+        android:layout_height="225dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="256dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtTituloI"
+        app:srcCompat="@drawable/img" />
+
+
+</android.support.constraint.ConstraintLayout>

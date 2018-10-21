@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DESASTRES"
+        android:textAlignment="center"
+        android:textSize="100px"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/txtD"
+        />
+
+    <Button
+        android:id="@+id/btnInundacion"
+        android:layout_width="158dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="84dp"
+        android:text="Inundación"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        android:id="@+id/btnTornados"
+        android:layout_width="158dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="84dp"
+        android:text="Tornados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnTsunami"
+        android:layout_width="158dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Tsunami"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInundacion"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnTemp"
+        android:layout_width="158dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Temperaturas extremas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTornados"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnAvalancha"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Avalanchas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTsunami"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSequia"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Sequias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTemp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnHuracan"
+        android:layout_width="158dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Huracanes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAvalancha"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnIncendio"
+        android:layout_width="158dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Incendio forestal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSequia"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnErupcion"
+        android:layout_width="158dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Erupcion Volcanica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHuracan"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnTerremoto"
+        android:layout_width="158dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Terremotos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIncendio"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="223dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Salir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnErupcion"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

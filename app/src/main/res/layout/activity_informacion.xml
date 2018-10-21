@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informacion"
+    android:background="@drawable/fondo3"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtTituloI"
+    android:text="INUNDACIÓN"
+    android:textColor="@android:color/black"
+    android:textAlignment="center"
+    android:textSize="50dp"
+    />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="348dp"
+        android:layout_height="268dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:textSize="13dp"
+        android:text="Las inundaciones normalmente se producen por desbordes de ríos, debido a intensas lluvias o deshielos rápidos.  La mejor protección en caso de una inundación grande es abandonar el área y buscar refugio en una zona alta. Una inundación puede ser extremadamente peligrosa, 15 centímetros de agua moviéndose velozmente es suficiente para botar a una persona.  Un auto puede ser arrastrado por 60 centímetros de agua en movimiento. Por eso, las personas deben abandonar un auto rodeado por las aguas, y buscar refugio en un lugar alto.  Hay casos en que las inundaciones se producen en forma casi instantánea, llegando a su nivel más alto en sólo algunos minutos, por ejemplo cuando hay intensas lluvias en un breve período de tiempo. Estas aguas pueden ser muy rápidas, es factible que alcancen una altura de hasta 6 metros y que su fuerza arrase con árboles, puentes y otras construcciones. La mejor opción es buscar refugio rápidamente en un lugar alto."
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtTituloI"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="224dp"
+        android:layout_height="162dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="344dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtTituloI"
+        app:srcCompat="@drawable/foto1" />
+
+
+</android.support.constraint.ConstraintLayout>

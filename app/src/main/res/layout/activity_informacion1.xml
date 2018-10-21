@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informacion1" android:background="@drawable/fondo3"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTituloI"
+        android:text="Tornado"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="348dp"
+        android:layout_height="268dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="Es indispensable la formación de una nube de tormenta. Para eso se necesita que  aire cálido y húmedo sea forzado a elevarse por un mecanismo de ascenso, como por ejemplo, la presencia de un frente frío. Otros factores a tener en cuenta son la gran inestabilidad del aire y una fuerte cortante vertical del viento (es decir, cómo aumenta y/o gira el viento a medida que subimos en las capas de la atmósfera).  Aunque estos ingredientes parezcan demasiados, no bastan para la formación de un tornado. La diferencia está en que no sólo se necesita una cortante vertical que esté presente en los primeros seis a ocho kilómetros de altura, sino también que la misma esté acentuada en los niveles bajos de la atmósfera, específicamente en el primer kilómetro de altura. Cuando eso sucede, entonces ahí disponemos de las condiciones necesarias para generar un tornado."
+        android:textColor="@android:color/black"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtTituloI"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="224dp"
+        android:layout_height="162dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="344dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtTituloI"
+        app:srcCompat="@drawable/fondo1" />
+
+
+</android.support.constraint.ConstraintLayout>
